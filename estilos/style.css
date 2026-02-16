@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+/* CORES 
+
+AZUL/ROXO: #6100F4
+AMARELO:  #F5ED05
+*/
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,14 +14,49 @@
 }
 
 main{
-    height: 100vh;
-
+    height: 100%;
+    width: 100%;
 }
 
 section#login{
     width: 90%;
-    height: 500px;
+    height: auto;
     margin: auto;
+    padding: 50px;
     border-radius: 7px;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.51);
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.233);
 }
+
+div#imagem{
+    display: none;
+}
+
+div#formulario{
+    height: 100%;
+    width: 100%;
+    
+}
+
+div#formulario > h1{
+    text-align: center;
+    padding-bottom: 10px; 
+    font-size: 2.5em;
+}
+
+div#formulario > p{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1em;
+}
+
+div.campo{
+    padding: 12px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 20px;
+    background-color: ;
+    border-radius: 8px;
+}
+

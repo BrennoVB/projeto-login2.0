@@ -18,11 +18,15 @@
                 <p>Acesse o portal do aluno com suas informações.</p>
 
                 <form action="aluno.php" method="post" autocomplete="on">
-                    <label for="ilogin">Login</label>
-                    <input type="email" name="login" id="ilogin" required placeholder="seu email" autocomplete="email"> 
+                    <div class="campo">
+                        <label for="ilogin">Login</label>
+                        <input type="email" name="login" id="ilogin" required placeholder="seu email" autocomplete="email">
+                    </div>
 
-                    <label for="isenha">Senha</label>
-                    <input type="password" name="senha" id="isenha" required autocomplete="current-password"> 
+                    <div class="campo">
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" required autocomplete="current-password" placeholder="sua senha">
+                    </div>
 
                     <input type="submit" value="Entrar">
 
