@@ -30,7 +30,7 @@ section#login{
 
     background-color: white;
     width: 350px;
-    height: auto;
+    height: 500px;
     padding: 50px;
     border-radius: 20px;
     box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.233);
@@ -51,26 +51,40 @@ div#formulario{
 div#formulario > h1{
     text-align: center;
     padding-bottom: 10px; 
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 div#formulario > p{
     text-align: center;
     padding-bottom: 10px;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 div.campo{
     padding: 10px;
 }
 
+
+input{
+    padding: 10px;
+    border: 0.5px solid black
+}
+
+input:focus-within{
+    background-color: black;
+    color: white;
+}
+
+
 input[type="submit"]{
     display: block;
+    text-align: center;
     width: 100%;
+    margin-top: 100px;
     padding: 20px;
     border: 0px;
     border-radius: 8px;
-    background-color:#F5ED05 ;
+    background-color:#6100f4 ;
 }
 
 input[type="submit"]:hover{
