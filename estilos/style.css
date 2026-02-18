@@ -30,7 +30,7 @@ section#login{
 
     background-color: white;
     width: 350px;
-    height: 500px;
+    height: auto;
     padding: 50px;
     border-radius: 20px;
     box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.233);
@@ -38,7 +38,12 @@ section#login{
     transform: translate(-50%, -50%);
 }
 
-div#imagem{
+section#login > div#imagem{
+    background: #5f2c82 url(../imagens/pexels-diogo-digital-art-52024063-35072253.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 30px;
+    height: 200px;
     display: none;
 }
 
@@ -74,6 +79,7 @@ input{
    padding: 20px;
    width: 100%;
    margin-top: 2px;
+   border-radius: 8px;
 }
 
 input:focus-within{
