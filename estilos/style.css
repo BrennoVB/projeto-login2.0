@@ -66,9 +66,7 @@ div.campo{
     transform: translateY(20px);
 }
 
-label{
-    padding: 10px;
-}
+
 
 input{
    background-color: #F5ED05;
@@ -79,8 +77,8 @@ input{
 }
 
 input:focus-within{
-    background-color: black;
-    color: white;
+    background-color:white;
+    color: black;
 }
 
 
@@ -88,7 +86,7 @@ input[type="submit"]{
     display: block;
     text-align: center;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 40px;
     padding: 20px;
     border: 0px;
     border-radius: 8px;
@@ -98,7 +96,7 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover{
-    background-color: #622db1;
+    background-color: #9b62f1;
     cursor: pointer;
 }
 
