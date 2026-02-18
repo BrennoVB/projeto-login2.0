@@ -9,7 +9,7 @@ body{
 }
 
 section#login{
-    width: 97vw;
+    width: 90vw;
     float: left;
     
 }
@@ -40,7 +40,7 @@ input[type="submit"]{
         background-image: linear-gradient(to left, #F5ED05, #6100F4);
     }
     section#login{
-    width: 97vw;
+    width: 90vw;
     float: left;
 }
 
